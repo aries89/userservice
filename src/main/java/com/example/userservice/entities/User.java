@@ -40,11 +40,12 @@ public class User {
 	@Column(name="phone_number",nullable=false)
 	private String phoneNumber;
 	
-	@Column(updatable = false)
+	@Column(name="created_at",updatable = false)
 	@CreationTimestamp
 	private LocalDateTime createdAt;
 	
 	@UpdateTimestamp
+	@Column(name="updated_at")
 	private LocalDateTime updatedAt;
 	
 	public User() {
