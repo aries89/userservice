@@ -5,15 +5,13 @@ The User Service is responsible for managing user accounts, authentication, and 
 
 ## Responsibilities
 - User registration and profile management
-- Role assignment (e.g., ADMIN, CUSTOMER)
-- JWT-based authentication
 
 ## Technology Stack
-- Java 17
+- Java 21
 - Spring Boot
 - Spring Security
 - Spring Data JPA
-- PostgreSQL / H2 (for local dev)
+- PostgreSQL
 
 ## Running Locally
 1. Clone the repository:
