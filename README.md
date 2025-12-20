@@ -21,7 +21,7 @@ git clone https://github.com/aries89/userservice.git
 mvn spring-boot:run
 Endpoints
 •	POST /api/users - Register a new user
-•	GET /users/{id} - Fetch user details
+•	GET /api/users/{id} - Fetch user details
 Future Enhancements
 •	Assignment of roles to users
 •	JWT Authentication
