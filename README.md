@@ -21,13 +21,13 @@ The User Service is responsible for managing user accounts, authentication, and 
 ```bash
 git clone https://github.com/aries89/userservice.git
 
-Endpoints
+## Endpoints
 
 POST /api/users - Register a new user
 
 GET /users/{id} - Fetch user details
 
-Future Enhancements
+## Future Enhancements
 
 Assignment of roles to users
 
